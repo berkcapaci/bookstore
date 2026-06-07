@@ -8,9 +8,6 @@ body{
     margin: 0;
 }
 
-header{
-
-}
 header h1{
     text-align: center;
 }
@@ -47,16 +44,8 @@ main {
     padding: 20px 0;
 }
 
-.like-section{
-
-}
-
 .like-section span{
     cursor: pointer;
-}
-
-.comments-section{
-
 }
 
 .comments-form{
@@ -78,8 +67,4 @@ main {
 
 comment strong{
     display: block;
-}
-
-footer{
-
 }
