@@ -15,7 +15,6 @@ function toggleLike(index){
         books[index].likes++;
     }
     books[index].liked = !books[index].liked;
-    console.log(books[index].liked);
     renderBooks();
 }
 
