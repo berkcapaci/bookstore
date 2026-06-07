@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+
+}
+header h1{
+    text-align: center;
+}
+
+main {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.book-card{
+    display: flex;
+    flex-direction: column ;
+    width: 300px ;
+    padding: 20px;
+    background-color: rgb(209, 247, 247);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+    border-radius: 16px;
+}
+
+.book-card img{
+    width: 200px;
+    display:block ;
+    margin: 0 auto;
+}
+
+.book-card h2{
+    text-align: center;
+}
+
+.book-details{
+    padding: 20px 0;
+}
+
+.like-section{
+
+}
+
+.comments-section{
+
+}
+
+.comments-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(251, 224, 253)
+}
+
+comment strong{
+    display: block;
+}
+
+footer{
+
+}
