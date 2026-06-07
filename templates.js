@@ -11,7 +11,9 @@ function getBookTemplate (book, index){
                 <p>Published: ${book.publishedYear}</p>
             </div>
             <div class="like-section">
-                <p onclick="toggleLike(${index})" >${book.liked ? "❤️" : "🤍"} ${book.likes}</p>
+                <p>
+                   <span onclick="toggleLike(${index})" >${book.liked ? "❤️" : "🤍"} ${book.likes}</span>
+                </p>
             </div>
             <div class="comments-section">
                 ${getCommentsTemplate(book.comments)}
