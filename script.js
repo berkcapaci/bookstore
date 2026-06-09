@@ -15,7 +15,7 @@ function toggleLike(index){
         books[index].likes++;
     }
     books[index].liked = !books[index].liked;
-    renderBooks();
+    renderLikeSection(index);
 }
 
 function addComment(index){
@@ -31,4 +31,9 @@ function addComment(index){
     };
     books[index].comments.push(newComment);
     renderBooks();
+}
+
+function renderLikeSection(index){
+    const likeSection = document.getElementById(`likeSection${index}`);
+    likeSection.innerHTML = getLikeTemplate(books[index], index);
 }
